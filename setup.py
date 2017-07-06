@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = __import__(APP_NAME).__version__
+version = __import__('utils').__version__
 
 classifiers = [
     'Environment :: Web Environment',
